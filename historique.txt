@@ -1,0 +1,165 @@
+    1  sudo adduser test
+    2  cat /etc/passwd
+    3  sudo gpasswd -d test sudo
+    4  sudo passwd
+    5  sudo passwd test
+    6  sudo test passwd
+    7  sudo chage -d 0 test
+    8  sudo usermod -aG sudo test
+    9  sudo chage -1 test
+   10  sudo chage -l  test
+   11  sudo passwd -x 999999 test
+   12  sudo passwd -S test
+   13  sudo passwd -x 99999 test
+   14  sudo passwd test
+   15  ls
+   16  ls -la
+   17  /etc/passwd
+   18  sudo /etc/passwd
+   19  po52
+   20  sudo /etc/passwd
+   21  cat /etc/passwd
+   22  sudo cat /etc/passwd
+   23  ls -la /etc/passwd
+   24  ls /medai/$USER
+   25  ls /media/$USER
+   26  ls /media/$user
+   27  ls /media/$USER
+   28  lsusb
+   29  sudo mkdir /mnt/usb
+   30  sudo mount /dev/sdb1 /mnt/usb
+   31  lsusblsusb
+   32  lsusb
+   33  ls /media/$USER
+   34  cp -a ~/.ssh /mnt/usb/
+   35  cp ~/.ssh/id_ed25519 /mnt/usb/
+   36  cp ~/.ssh/id_ed25519 /mnt/usb
+   37  ls -la ~/.ssh/
+   38  ssh-keygen -t ed25519
+   39  sudo mkdir /mnt/shared
+   40  sudo mount -t vboxsf test /mnt/shared
+   41  cp ~/.ssh/id_ed25519 /mnt/shared
+   42  sudo cp ~/.ssh/id_ed25519 /mnt/shared
+   43  sudo mkdir /mnt/usb
+   44  sudo mount /dev/sdb1 /mnt/usb
+   45  cp ~/.ssh/id_ed25519 /mnt/usb
+   46  git
+   47  sudo apt install git
+   48  clone
+   49  cat ~/.ssh/id_ed25519.pub
+   50  git  clone git@github.com:codewithsadee/dashboard.git
+   51  ls 
+   52  ls -la
+   53  git  clone git@github.com:codewithsadee/dashboard.git
+   54  git  clone https://github.com/codewithsadee/dashboard.git
+   55  rm -rf .git
+   56  cd /chemin/vers/mon-projet
+   57  ls
+   58  ls -la
+   59  dashboard
+   60  /dashboard
+   61  ls -la
+   62  ls
+   63  cd /dasboard
+   64  cd ~/dashboard
+   65  git status
+   66  git add
+   67  git add .
+   68  git commit -m "Ajout de la page index"
+   69  git confi --global user.email "2643172@etudiant.cegepvicto.ca"
+   70  git config --global user.email "2643172@etudiant.cegepvicto.ca"
+   71  git config --global user.name "cgpvicto-2643172"
+   72  git commit -m "Ajout de la page index"
+   73  git push -u origin main
+   74  ~/
+   75  /home
+   76  /home/vboxuser
+   77  ls -a
+   78  rm -rf.git
+   79  rm -rf .git
+   80  git status
+   81  ls -la
+   82  git commit -m "Ajout de la page index"
+   83  git status
+   84  git config --global user.email "2643172@etudiant.cegepvicto.ca"
+   85  git config --global user.name "cgpvicto-2643172"
+   86  git status
+   87  git init
+   88  git status
+   89  git add
+   90  git add .
+   91  git commit -m "Ajout de la page index"
+   92  git push -u origin main
+   93  ls -la
+   94  rm -rf .git
+   95  ls -la
+   96  git status
+   97  git add
+   98  git add.
+   99  git branch -M main
+  100  .git
+  101  git init
+  102  git add
+  103  git add .
+  104  git commit -M main
+  105  git commit -m "first commit"
+  106  git branch -M main
+  107  git remote add origin https://github.com/cgpvicto-2643172/test.git
+  108  git status
+  109  ssh-keygen
+  110  cat /home/vboxuser/.ssh/id_ed25519.pub
+  111  ls -a
+  112  rm -rf .git
+  113  ls -a
+  114  git status
+  115  git init
+  116  git status
+  117  git .add
+  118  git add.
+  119  git add
+  120  git add .
+  121  ls -a
+  122  git status
+  123  git c
+  124  git commit -m "first commit"
+  125  git help
+  126  git branch -M main
+  127  git remote add origin https://github.com/cgpvicto-2643172/test.git
+  128  git push -u origin main
+  129  git remote add origin git@github.com:cgpvicto-2643172/test.git
+  130  git pull origin
+  131  apt install openssh-server
+  132  sudo apt install openssh-server
+  133  openssh launch
+  134  ip a
+  135  ~/
+  136  ~
+  137  /home
+  138  /home/vboxuser
+  139  cd /home/vboxuser
+  140  sudo apt install openssh-server
+  141  sudo systemctl start ssh.service
+  142  lskb
+  143  lskbl
+  144  lsblk -f
+  145  sudo fdisk /dev/sdb
+  146  o
+  147  sudo mkfs.ext4 /dev/sdb1
+  148  sudo mkdir -p /mnt/data
+  149  sudo mount /dev/sdb1 /mnt/data
+  150  df -h /mnt/data
+  151  sudo blkid /dev/sdb1
+  152  sudo nano /etc/fstab 
+  153  /etc/passwd
+  154  sudo /etc/passwd
+  155  id
+  156  groups
+  157  ls -l
+  158  ls -l /etc/passwd
+  159  sudo chown $USER:$USER /etc/passwd
+  160  sudo /etc/passwd
+  161  sudo chown $vboxuser:$vboxuser /etc/passwd
+  162  sudo /etc/passwd
+  163  cat /etc/passwd | sort
+  164  history
+  165  history > historique.txt
